@@ -1,6 +1,6 @@
 In this coursework we've been asked to develop an web site for Emblem Collectible Books a (fictitious) company that wants run the business on an e-commerce
 only basis.
-Reqirements:
+Requirements:
 1. Built to current web standards using HTML 5 and CSS 3
 2. Satisfy accepted design standards for small e-commerce sites
 3. Meet accepted usability guidelines
