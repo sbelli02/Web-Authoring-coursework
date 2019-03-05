@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerald</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lte IE 8]> 
+        <script src="JS/html5shiv-printshiv.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico" />
+    
+</head>
+
+<body>
+<div class="wrapper">
+	
+    <header id="head" role="banner">
+
+
+        <nav role="navigation">
+            <ul>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="#">Accessibility</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us </a>
+                </li>
+
+			</ul>
+
+        </nav>
+
+
+		<div class="clearfix" id="logo">
+          <div>
+          	
+           <img src="logo/emblem_logo_144.png" alt="emblem logo">
+          </div>
+            <h1>EMBLEM</h1>
+            <h2>Rare Collectible Book</h2>
+			
+		</div>
+        
+
+
+        
+	   
+
+    </header>
+
+        <nav class="clearfix" id="mainNav" role="navigation">
+            <ul>
+                <li>
+                    <a id="skip" href="#main">Skip to content</a>
+                </li>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a  href="book.html">BOOK</a>
+                </li>
+                <li>
+                    <a   href="delivery.html">DELIVERY</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">BOOK AS AN INVESTEMENT</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="mainContent">
+			 <nav id="breadcrumb">
+			  <p><a href="index.html">Home</a>&nbsp;&raquo;&nbsp;Contact us</p>
+			 </nav>
+        		
+		 
+		</div>	
+		<main id="form">
+				   <h2>Contact us</h2>
+				   <p>Please feel free to contact us if you are looking to buy a book not listed in our collection, or you are looking to sell a book, have a book valued or have a book repaired. We try to answer all queries within 24 hours of receipt.</p>
+				   <div role="form">
+					   <form method="post" action="#">
+						  <fieldset>
+							 <legend>Send us a message</legend>
+							 <div >
+								<label for="title" id="c1">Title:</label>
+								<select name="title" id="title" aria-labelledby="c1">
+								   <option value="1">Mr</option>
+								   <option value="2">Mrs</option>
+								   <option value="3">Miss</option>
+								   <option value="4">Ms</option>
+								   <option value="5">Dr</option>
+								   <option value="6">Prof</option>
+								</select>
+							 </div>
+							 <div >
+								<label for="name" id="c2">Name:<span class="require">*</span></label>
+								<input type="text" name="name" id="name" required aria-labelledby="c2">
+							 </div>
+							 <div >
+								<label for="mail" id="c3">Email:<span class="require">*</span></label>
+								<input type="email" name="email" id="mail" placeholder="Your full email address" required aria-labelledby="c3">
+							 </div>
+							 <div >
+								<label for="nature" id="c4">Nature of query:</label>
+								<select name="nature" id="nature" aria-labelledby="c4">
+								   <option value="1">Buy books</option>
+								   <option value="2">Sell books</option>
+								   <option value="3">Return a book</option>
+								   <option value="4">Delivery</option>
+								   <option value="5">Complaint</option>
+								   <option value="6">Other</option>
+								</select>
+							 </div>
+							 <div >
+								<label for="msg" id="c5">Message:</label>
+								<textarea name="message" id="msg" placeholder="Type your message here..." aria-labelledby="c5"></textarea>
+							 </div>
+							 <input type="submit" name="send_btn" value="Send">
+						  </fieldset>
+					   </form>
+				   </div>
+				</main>
+
+    
+    <footer class="clearfix" role="contentinfo">
+        <nav role="navigation">
+            <ul>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Term and conditions</a>
+                </li>
+                <li>
+                    <a href="#">Returns</a>
+                </li>
+            </ul>
+        </nav>
+        <p>&#169; 2016
+            Emerald Ltd.</p>
+    </footer>
+
+</div>
+</body>
+
+</html>
