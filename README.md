@@ -9,6 +9,6 @@ Requirements:
 devices.
 6. Be, as far as realistically possible, cross browser compatible.
 
-THe website is published on my DCSIS student web server so that they are
+The website is published on my DCSIS student web server so that they are
 accessible on the following URL.
 http://titan.dcs.bbk.ac.uk/~sbelli02/wafma
